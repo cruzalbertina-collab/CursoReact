@@ -1,0 +1,66 @@
+.divContactos {
+  width: 700px;
+  border-radius: 14px;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #a2d2ff, #b5eaea);
+  color: #2a4d69;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  padding: 1.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.divContactos:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.2);
+}
+
+.contactos {
+  margin: 12px 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.contactos:hover {
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.contactos p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  color: #144552;
+  font-weight: 500;
+}
+
+.divContactos table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.divContactos th {
+  background-color: #89c2d9;
+  color: #144552;
+  padding: 0.8rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.divContactos td {
+  padding: 0.7rem;
+  border-bottom: 1px solid #d6eaf8;
+  font-size: 0.95rem;
+  color: #2a4d69;
+}
+
+.divContactos tr:hover td {
+  background-color: #d6f5f5;
+}
