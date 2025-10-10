@@ -1,0 +1,185 @@
+/* Slick carousel styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff0f5; /* Rosa pastel muy suave */
+  color: #333;
+}
+
+/* Menú superior */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #d8b4ff; /* Morado pastel */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-radius: 0 0 15px 15px;
+}
+
+/* Secciones del menú */
+.nav-left, .nav-center, .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Enlaces */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Efecto hover */
+nav a:hover {
+  background-color: #ffd1dc; /* Rosa pastel melocotón */
+  color: #6b21a8; /* Morado más oscuro */
+  transform: scale(1.05);
+}
+
+/* Contenido principal */
+.main-content {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #ffe4e1; /* Melocotón pastel suave */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+/* Títulos */
+h3 {
+  color: #6b21a8; /* Morado oscuro */
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* Párrafos */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Enlaces dentro del contenido */
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #d8b4ff; /* Morado pastel */
+}
+
+a:hover {
+  color: #ff9a8d; /* Melocotón pastel */
+}
+
+/* Catalogo.css */
+.catalogo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.product-card {
+  background-color: #ffe4e1;
+  border-radius: 15px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-card h4 {
+  margin: 15px 0 10px;
+  color: #6b21a8;
+}
+
+.product-card p {
+  font-weight: 600;
+  color: #ff9a8d;
+}
+
+.product-card button {
+  background-color: #d8b4ff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-card button:hover {
+  background-color: #6b21a8;
+}
+
+/* Cart.css */
+.cart-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #ffe4e1;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-item button {
+  background-color: #d8b4ff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #6b21a8;
+}
+
+.cart-container h4 {
+  margin-top: 20px;
+  color: #6b21a8;
+}
+
+.cart-container button:last-child {
+  background-color: #ff9a8d;
+  margin-top: 15px;
+}
+
+.cart-container button:last-child:hover {
+  background-color: #e06666;
+}
